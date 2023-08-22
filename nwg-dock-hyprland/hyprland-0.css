@@ -1,0 +1,35 @@
+window {
+    background-color: rgb(48, 52, 70, 0.95);
+    border-style: solid;
+    border-width: 50px;
+    border-color: rgb(238, 190, 190);
+}
+
+#box {
+    /* Define attributes of the box surrounding icons here */
+    padding: 10px
+}
+
+button, image {
+    background: none;
+    border-style: none;
+    box-shadow: none;
+    color: rgb(48, 52, 70);
+}
+
+button {
+    padding: 4px;
+    margin-left: 4px;
+    margin-right: 4px;
+    color: #eee;
+    font-size: 12px
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 2px;
+}
+
+button:focus {
+    box-shadow: 0 0 2px;
+}
